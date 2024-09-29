@@ -22,7 +22,7 @@ default: &default
   port: <%= ENV['POSTGRES_PORT'] %>
   username: <%= ENV['POSTGRES_USERNAME'] %>
   password: <%= ENV['POSTGRES_PASSWORD'] %>
-
+  database: <%= ENV['POSTGRES_DATABASE'] %>
 development:
   <<: *default
 
