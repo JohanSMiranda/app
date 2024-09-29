@@ -1,1 +1,8 @@
 <h1>Hello world!</h1>
+<h2><%= @num %></h2>
+
+<% if @num > 100 %>
+    <p>Número es mayor a 100</p>
+<% else %>
+    <p>Número no es mayor a 100</p>
+<% end %>
